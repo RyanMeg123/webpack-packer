@@ -1,0 +1,21 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:webapck": "webpack  --color  --progress --config webpack.config.js",
+    "start": "node ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/parser": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/traverse": "^7.17.10",
+    "webpack-cli": "^4.9.2"
+  }
+}
